@@ -1,3 +1,7 @@
-function aloqa() {
-  alert("Ro‘yxatdan o‘tish uchun telefon qiling!");
+let son = 0;
+
+function bosildi() {
+  son++;
+  document.getElementById("count").innerText =
+    "Bosishlar: " + son;
 }
